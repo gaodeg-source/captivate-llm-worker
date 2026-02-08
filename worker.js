@@ -181,9 +181,9 @@ function isAllowedOrigin(origin) {
   // Allow local testing (Captivate preview, local HTML)
   if (/^http:\/\/localhost:\d+$/.test(origin)) return origin;
 
-  // ✅ CHANGE THIS LINE when you know your GitHub username
+
   // Example: https://gaodeg-source.github.io
-  if (origin === "https://YOUR_GITHUB_USERNAME.github.io") return origin;
+  if (origin === "https://gaodeg-source.github.io") return origin;
 
   return null;
 }
